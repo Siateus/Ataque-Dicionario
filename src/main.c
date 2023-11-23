@@ -1,4 +1,4 @@
-#include "../include/main.h"
+
 #include "../include/abertura.h"
 
 int main(int argc, char *argv[] ) {

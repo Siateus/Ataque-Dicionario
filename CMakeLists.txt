@@ -12,7 +12,6 @@ add_executable(Projeto03 src/main.c
         include/criptografia.h
         src/descriptografia.c
         include/descriptografia.h
-        include/main.h
         src/abertura.c
         include/abertura.h)
 
