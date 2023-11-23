@@ -3,26 +3,7 @@
 #include <string.h>
 #include "../include/leitura.h"
 
-int testa_abertura (FILE *fp){
 
-    if (fp == NULL){
-        exit(0);
-    }
-    return contar_linhas(fp);
-
-}
-
-int contar_linhas(FILE *file){
-    int count = 0;
-    char buffer[100];
-
-    while (fgets(buffer, sizeof(buffer), file) != NULL) {
-        count++;
-    }
-
-    rewind(file);
-    return count;
-}
 
 void leitura (FILE *f_usuarios, FILE *f_senhas, int Tokens_size,
               int Users_size, Chaves *Tokens, Usuarios *Dados_usuarios) {

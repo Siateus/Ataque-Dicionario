@@ -1,16 +1,10 @@
 #include "../include/main.h"
+#include "../include/abertura.h"
 
 int main(int argc, char *argv[] ) {
 
-    int Users_size, Tokens_size;
-    FILE *arquivos_usuarios, *arquivo_senhas, *arquivo_saida;
-    arquivos_usuarios = fopen(argv[1], "r");
-    arquivo_senhas = fopen(argv[2], "r");
-    arquivo_saida = fopen(argv[3], "w");
+    abrir_arquivos(argc, argv);
 
-    Users_size = testa_abertura(arquivos_usuarios);
-    Tokens_size = testa_abertura(arquivo_senhas);
-    Users_size = Users_size / 6;
 
     Usuarios *Dados_usuarios = (Usuarios *) calloc(Users_size, sizeof(Usuarios));
     Chaves *Tokens = (Chaves *) calloc(Tokens_size, sizeof(Chaves));
@@ -28,6 +22,7 @@ int main(int argc, char *argv[] ) {
             free(hash);
         }
     }
+
     free(Dados_usuarios);
     free(Tokens);
     fclose(arquivos_usuarios);

@@ -12,7 +12,9 @@ add_executable(Projeto03 src/main.c
         include/criptografia.h
         src/descriptografia.c
         include/descriptografia.h
-        include/main.h)
+        include/main.h
+        src/abertura.c
+        include/abertura.h)
 
 target_link_libraries(Projeto03 OpenSSL::SSL OpenSSL::Crypto)
 

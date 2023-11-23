@@ -18,9 +18,6 @@ typedef struct usuarios {
 
 } Usuarios;
 
-int contar_linhas(FILE *file);
-
-int testa_abertura (FILE *fp);
 
 
 void leitura (FILE *f_usuarios, FILE *f_senhas, int Tokens_size,
