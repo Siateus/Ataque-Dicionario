@@ -20,7 +20,7 @@ int main(int argc, char *argv[] ) {
         for (int k = 0; k < Tokens_size; k++) {
             char *hash = cripto(&Tokens[k]);
             int x = desencriptacao(hash, &Dados_usuarios[i]);
-            if (x != 0) {
+            if (x == 1) {
                 saida(arquivo_saida, &Dados_usuarios[i], &Tokens[k]);
                 free(hash);
                 break;

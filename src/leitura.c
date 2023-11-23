@@ -39,5 +39,6 @@ void leitura (FILE *f_usuarios, FILE *f_senhas, int Tokens_size,
     for (j = 0; j < Tokens_size; j++) {
         fscanf(f_senhas, "%s\n", Tokens[j].senhas);
     }
+
 }
 
