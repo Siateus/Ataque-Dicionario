@@ -3,7 +3,7 @@ project(Projeto03 C)
 
 set(CMAKE_C_STANDARD 11)
 find_package(OpenSSL REQUIRED)
-add_executable(Projeto03 src/main.c
+add_executable(main src/main.c
         src/leitura.c
         include/leitura.h
         src/saida.c
@@ -15,7 +15,7 @@ add_executable(Projeto03 src/main.c
         src/abertura.c
         include/abertura.h)
 
-target_link_libraries(Projeto03 OpenSSL::SSL OpenSSL::Crypto)
+target_link_libraries(main OpenSSL::SSL OpenSSL::Crypto)
 
 
 
