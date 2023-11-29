@@ -4,6 +4,6 @@
 
 #include <stdio.h>
 #include "../include/leitura.h"
-void saida(FILE *saida, Usuarios *dados, Chaves *Tokens);
+void saida(FILE *saida, Usuarios *dados, Chaves *Passwords);
 
 #endif //PROJETO03_SAIDA_H

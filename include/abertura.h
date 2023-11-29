@@ -13,11 +13,12 @@
 extern FILE *arquivos_usuarios;
 extern FILE *arquivo_senhas;
 extern FILE *arquivo_saida;
-extern int Tokens_size;
+extern int Passwords_size;
 extern int Users_size;
+
 int contar_linhas(FILE *file);
 
-int testa_abertura (FILE *fp);
+void testa_abertura (FILE *fp);
 
 void abrir_arquivos(int argc, char *argv[]);
 

@@ -4,11 +4,12 @@
 
 #include <stdio.h>
 
-
+// Define a estrutura 'Chaves', que contém uma string 'senhas'.
 typedef struct chaves {
     char senhas[32];
 } Chaves;
 
+// Define a estrutura 'Usuarios', que contém várias strings para armazenar informações do usuário.
 typedef struct usuarios {
     char nome[51];
     char data[13];
@@ -21,6 +22,6 @@ typedef struct usuarios {
 
 
 void leitura (FILE *f_usuarios, FILE *f_senhas, int Tokens_size,
-              int Users_size, Chaves *Tokens, Usuarios *Dados_usuarios);
+              int Users_size, Chaves *Passwords, Usuarios *Dados_usuarios);
 
 #endif //PROJETO03_LEITURA_H
