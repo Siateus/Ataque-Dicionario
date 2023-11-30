@@ -1,6 +1,6 @@
 
-#ifndef PROJETO03_ABERTURA_H
-#define PROJETO03_ABERTURA_H
+#ifndef ATAQUE_DE_DICIONARIO_ABERTURA_H
+#define ATAQUE_DE_DICIONARIO_ABERTURA_H
 
 
 #include <stdio.h>
@@ -22,4 +22,4 @@ void testa_abertura (FILE *fp);
 
 void abrir_arquivos(int argc, char *argv[]);
 
-#endif //PROJETO03_ABERTURA_H
+#endif //ATAQUE_DE_DICIONARIO_ABERTURA_H

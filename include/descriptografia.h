@@ -1,8 +1,8 @@
-#ifndef PROJETO03_DESCRIPTOGRAFIA_H
-#define PROJETO03_DESCRIPTOGRAFIA_H
+#ifndef ATAQUE_DE_DICIONARIO_DESCRIPTOGRAFIA_H
+#define ATAQUE_DE_DICIONARIO_DESCRIPTOGRAFIA_H
 
 #include "../include/leitura.h"
 
 int desencriptacao(char *hash, Usuarios *Dados_usuarios);
 
-#endif //PROJETO03_DESCRIPTOGRAFIA_H
+#endif //ATAQUE_DE_DICIONARIO_DESCRIPTOGRAFIA_H

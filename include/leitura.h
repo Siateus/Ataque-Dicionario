@@ -1,6 +1,6 @@
 
-#ifndef PROJETO03_LEITURA_H
-#define PROJETO03_LEITURA_H
+#ifndef ATAQUE_DE_DICIONARIO_LEITURA_H
+#define ATAQUE_DE_DICIONARIO_LEITURA_H
 
 #include <stdio.h>
 
@@ -24,4 +24,4 @@ typedef struct usuarios {
 void leitura (FILE *f_usuarios, FILE *f_senhas, int Tokens_size,
               int Users_size, Chaves *Passwords, Usuarios *Dados_usuarios);
 
-#endif //PROJETO03_LEITURA_H
+#endif //ATAQUE_DE_DICIONARIO_LEITURA_H

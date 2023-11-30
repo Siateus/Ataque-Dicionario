@@ -1,6 +1,6 @@
 
-#ifndef PROJETO03_CRIPTOGRAFIA_H
-#define PROJETO03_CRIPTOGRAFIA_H
+#ifndef ATAQUE_DE_DICIONARIO_CRIPTOGRAFIA_H
+#define ATAQUE_DE_DICIONARIO_CRIPTOGRAFIA_H
 #include "../include/leitura.h"
 #include <stdio.h>
 #include <string.h>
@@ -8,4 +8,4 @@
 
 char* cripto (Chaves *Passwords);
 
-#endif //PROJETO03_CRIPTOGRAFIA_H
+#endif //ATAQUE_DE_DICIONARIO_CRIPTOGRAFIA_H
